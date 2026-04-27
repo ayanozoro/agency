@@ -3,6 +3,7 @@
 @theme inline {
   --font-inter: var(--font-inter);
   --font-instrument: var(--font-instrument);
+  --font-rubik: var(--font-rubik);
 }
 
 :root {

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, Instrument_Serif, Readex_Pro } from "next/font/google";
+import { Inter, Instrument_Serif, Readex_Pro, Rubik } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({
@@ -20,6 +20,12 @@ const readexPro = Readex_Pro({
   weight: ["300", "400", "500", "600", "700"],
 });
 
+const rubik = Rubik({
+  variable: "--font-rubik",
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+});
+
 export const metadata: Metadata = {
   title: "Convix Software",
   description: "The All-In-One Software Powering the Future of PR Agencies",
@@ -32,7 +38,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} ${instrumentSerif.variable} ${readexPro.variable} antialiased`}>
+      <body className={`${inter.variable} ${instrumentSerif.variable} ${readexPro.variable} ${rubik.variable} antialiased`}>
         {children}
       </body>
     </html>
