@@ -51,8 +51,8 @@ export default function Navbar() {
               </div>
             </div>
 
-            <Link href="#work" className="hover:text-black transition-colors">Work</Link>
-<Link href="/about" className="hover:text-black transition-colors">About</Link>
+            <Link href="/work" className="hover:text-black transition-colors">Work</Link>
+            <Link href="/about" className="hover:text-black transition-colors">About</Link>
             <Link href="/contact" className="hover:text-black transition-colors">Contact</Link>
           </div>
 
@@ -96,8 +96,8 @@ export default function Navbar() {
               </div>
             </div>
             
-            <Link href="#work" className="px-2 py-1 pt-2">Work</Link>
-<Link href="/about" className="px-2 py-1">About</Link>
+            <Link href="/work" className="px-2 py-1 pt-2">Work</Link>
+            <Link href="/about" className="px-2 py-1">About</Link>
             <Link href="/contact" className="px-2 py-1">Contact</Link>
           </div>
         )}

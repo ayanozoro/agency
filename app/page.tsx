@@ -6,12 +6,12 @@ import Footer from "./components/Footer";
 export default function Home() {
   return (
     <>
-    <div className="bg-[#fff8fd] min-h-screen font-[family-name:var(--font-inter)]">
-      <Hero />
-      <ClientMarquee />
-      <Services />
-      <Footer />
-    </div>
+      <div className="bg-[#fff8fd] min-h-screen font-[family-name:var(--font-inter)]">
+        <Hero />
+        <ClientMarquee />
+        <Services />
+        <Footer />
+      </div>
     </>
   );
 }
